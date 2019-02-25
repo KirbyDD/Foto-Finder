@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Foto Finder</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>FOTO<img src="images/foto-finder-logo.svg" class="logo-pic">FINDER</h1>
+            <input type="text" class="search-box" placeholder="  Search">
+        </header>
+        <main>
+            <form>
+                <label for="title">Title</label>
+                <input type="text" id="title">
+                <label for="caption">Caption</label>
+                <input type="text" id="caption">
+                <label for="choose-file" class="upload-btn">Choose File</label>
+                <input type="file" class="upload-file" id="choose-file">
+                <div class="view-add-btns">
+                    <button id="view-favs-btn">View <span></span>Favorites</button>
+                    <button id="add-btn">Add to Album</button>
+                </div>
+            </form>
+        </main>
+        <section id="card-sec">
+            <article>
+                <p class="card-title card-p">Waterfall Image</p>
+                <img src="images/Temp-photo.jpg" alt="" class="card-img">
+                <p class="card-body card-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam vitae quod incidunt.</p>
+                <div>
+                    <img src="images/delete.svg" alt="" class="delete-btn article-btn" id="del-btn">
+                    <img src="images/favorite.svg" alt="" class="fav-btn article-btn" id="fav-btn">
+                </div>
+            </article>
+        </section>
+    </body>
+    <script src="photo.js"></script>
+    <script src="main.js"></script>
+</html>

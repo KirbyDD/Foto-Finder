@@ -1,0 +1,122 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    align-items: center;
+    background-color: #3E2A35;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 27px;
+}
+
+.logo-pic {
+    width: 42px;
+}
+
+.search-box {
+    border-radius: 5px;
+    font-size: 1rem;
+    height: 25px;
+    width: 225px;
+}
+main {
+    background-color: #3E2A35;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+label {
+    margin: 15px 0px 10px;
+    color: #938284;
+}
+
+form input{
+    height: 30px;
+    font-size: 1rem;
+}
+
+.upload-btn {
+    background-color: #5B4447;
+    color: #FFF;
+    height: 33px;
+    margin-top: 36px;
+    padding-top: 14px;
+    text-align: center;
+}
+
+.upload-file {
+    display: none;
+}
+
+button {
+    background-color: #5B4447;
+    border-style: none;
+    color: #FFF;
+    font-size: 1rem;
+    height: 47px;
+    margin: 28px 0px 0px;
+}
+
+.view-add-btns {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 30px;
+}
+
+div button{
+    width: 40%;
+}
+
+section {
+    background-color: #C2B2B4;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+article {
+    background-color: #FFF;
+    border-color: #5B4447;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    margin: 9px;
+    width: 23%;
+}
+
+.card-p {
+    padding: 8px;
+    margin: 0px;
+}
+
+.card-title {
+    margin-top: 0px;
+}
+
+.card-img {
+    height: 140px;
+    width: 100%;
+}
+
+.card-body {
+    min-height: 60px;
+}
+
+article div {
+    background-color: #5B4447;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.article-btn {
+    width: 35px;
+}
