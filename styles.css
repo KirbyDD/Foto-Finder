@@ -8,7 +8,7 @@ header {
 	color: #FFF;
 	display: flex;
 	justify-content: space-between;
-padding: 0px 27px;
+  padding: 0px 27px;
 }
 
 .logo-pic {
@@ -78,7 +78,6 @@ div button{
 section {
 	background-color: #C2B2B4;
 	display: flex;
-	justify-content: space-between;
 	flex-wrap: wrap;
 	padding: 20px;
 }
