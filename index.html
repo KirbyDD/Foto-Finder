@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Foto Finder</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="normalize.css">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <h1>FOTO<img src="images/foto-finder-logo.svg" class="logo-pic">FINDER</h1>
-            <input type="text" class="search-box" placeholder="  Search" id="search-box">
-        </header>
-        <main>
-            <form>
-                <label for="title">Title</label>
-                <input type="text" id="title">
-                <label for="caption">Caption</label>
-                <input type="text" id="caption">
-                <label for="choose-file" class="upload-btn">Choose File</label>
-                <input type="file" class="upload-file" id="choose-file" accept="image/x-png,image/gif,image/jpeg">
-                <div class="view-add-btns">
-                    <button id="view-favs-btn">View <span id="fav-counter"></span> Favorites</button>
-                    <button id="add-btn">Add to Album</button>
-                </div>
-            </form>
-        </main>
-        <section id="card-sec"></section>
-        <button class="show-toggle" id="show-toggle">Show More</button>
-    </body>
-    <script src="photo.js"></script>
-    <script src="main.js"></script>
+  <head>
+    <title>Foto Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+			<h1>FOTO<img src="images/foto-finder-logo.svg" class="logo-pic">FINDER</h1>
+			<input type="text" class="search-box" placeholder="  Search" id="search-box">
+		</header>
+		<main>
+			<form>
+				<label for="title">Title</label>
+				<input type="text" id="title">
+				<label for="caption">Caption</label>
+				<input type="text" id="caption">
+				<label for="choose-file" class="upload-btn">Choose File</label>
+				<input type="file" class="upload-file" id="choose-file" accept="image/x-png,image/gif,image/jpeg">
+				<div class="view-add-btns">
+					<button id="view-favs-btn">View <span id="fav-counter"></span> Favorites</button>
+					<button id="add-btn">Add to Album</button>
+				</div>
+			</form>
+		</main>
+		<section id="card-sec"></section>
+		<button class="show-toggle" id="show-toggle">Show More</button>
+	</body>
+	<script src="photo.js"></script>
+	<script src="main.js"></script>
 </html>
