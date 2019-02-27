@@ -23,15 +23,30 @@ class Photo{
     this.saveToStorage(cardArray);
   }
 
-  updatePhoto(){
-
+  updatePhoto(id, favorite){
+    var cardArray = this.pullFromStorage();
+    cardArray[this.getIndex(id)].favorite = favorite;
+    this.saveToStorage(cardArray);
   }
 
-  getIndex(articleID){
-    return this.pullFromStorage().map(photo => photo.id).indexOf(articleID);
+  getIndex(id){
+    let storage = this.pullFromStorage();
+    return storage.map(photo => photo.id).indexOf(id);
   }
 
   pullFromStorage() {
     return JSON.parse(localStorage.getItem('card'));
+  }
+
+  updateTitle(id, title){
+    var cardArray = this.pullFromStorage();
+    cardArray[this.getIndex(id)].title = title;
+    this.saveToStorage(cardArray);
+  }
+
+  updateCaption(id, caption){
+    var cardArray = this.pullFromStorage();
+    cardArray[this.getIndex(id)].caption = caption;
+    this.saveToStorage(cardArray);
   }
 }

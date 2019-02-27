@@ -78,6 +78,7 @@ div button{
 section {
     background-color: #C2B2B4;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px;
 }
@@ -115,8 +116,73 @@ article div {
     display: flex;
     height: 40px;
     justify-content: space-between;
+    padding: 5px 15px;
 }
 
 .article-btn {
     width: 35px;
+}
+
+.show-toggle{
+    margin: 0px;
+    width: 100%;
+}
+
+@media screen and (max-width: 956px) {
+
+article {
+  width: 31%;
+}
+
+}
+
+@media screen and (max-width: 827px) {
+    
+article {
+  width: 45%;
+}
+    
+}
+
+@media screen and (max-width: 675px) {
+
+header {
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 14px;
+}
+
+h1{
+    font-size: 37px;
+}
+
+.logo-pic {
+    width: 50px;
+}
+
+.search-box {
+    max-width: 590px;
+    width: 98%;
+}
+
+form {
+  width: 90%;
+}
+
+section {
+    justify-content: center;
+}
+
+article {
+    width: 85%;
+}
+.card-img {
+  height: 175px;
+}
+
+.card-p {
+  font-size: 20px;
+  padding: 15px 10px 10px 25px;
+}
+
 }
